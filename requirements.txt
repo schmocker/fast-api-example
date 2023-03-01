@@ -1,6 +1,0 @@
-fastapi
-sqlmodel
-uvicorn[standard]
-pytest
-httpx
-python-dotenv
