@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from .routes import admin_route, asset_route, project_route, project_asset_mapping_route
 
 
-app = FastAPI()
+app = FastAPI(docs_url='/')
 
 
 app.include_router(asset_route, prefix="/assets")
